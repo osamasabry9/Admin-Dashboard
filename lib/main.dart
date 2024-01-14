@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'presentation/views/dashboard_view.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -10,8 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Flutter Demo',
-      home: Scaffold(body: Text("Home")),
+      title: 'Admin Dashboard',
+      debugShowCheckedModeBanner: false,
+      home: DashBoardView(),
     );
   }
 }
