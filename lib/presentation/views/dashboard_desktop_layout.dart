@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/custom_drawer.dart';
+import '../widgets/drawer_widgets/custom_drawer.dart';
 
 class DashBoardDesktopLayout extends StatelessWidget {
   const DashBoardDesktopLayout({super.key});
