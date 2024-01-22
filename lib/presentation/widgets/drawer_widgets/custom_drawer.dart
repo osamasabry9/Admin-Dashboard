@@ -20,19 +20,18 @@ class CustomDrawer extends StatelessWidget {
             child: UserInfoListTile(
               userInfoModel: UserInfoModel(
                 image: Assets.imagesAvatar3,
-                title: "User Name",
-                subTitle: "hemsGamile@gmail.com",
+                title: "Lekan Okeowo",
+                subTitle: "demo@gmail.com",
               ),
             ),
           ),
           SliverToBoxAdapter(child: SizedBox(height: 8)),
           DrawerItemsListView(),
-
           SliverFillRemaining(
             hasScrollBody: false,
             child: Column(
               children: [
-                Expanded(child: SizedBox()),
+                Expanded(child: SizedBox(height: 20)),
                 InActiveDrawerItem(
                   drawerItemModel: DrawerItemModel(
                     title: 'Setting system',
