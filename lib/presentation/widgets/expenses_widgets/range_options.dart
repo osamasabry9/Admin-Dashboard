@@ -1,7 +1,8 @@
 import 'package:admin_dash_board/core/utils/app_styles.dart';
 import 'package:flutter/material.dart';
 
-import '../custom_background_container.dart';
+import '../../../core/widgets/custom_background_container.dart';
+
 
 class RangeOptions extends StatelessWidget {
   const RangeOptions({

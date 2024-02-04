@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../custom_background_container.dart';
+import '../../../core/widgets/custom_background_container.dart';
 import 'all_expenses_header.dart';
 
 import 'all_expenses_items_list_view.dart';
