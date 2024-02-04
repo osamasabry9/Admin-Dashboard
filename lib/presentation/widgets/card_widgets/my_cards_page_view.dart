@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 class MyCardsPageView extends StatelessWidget {
 final PageController pageController;
-MyCardsPageView({
+const MyCardsPageView({
   super.key,
   required this.pageController,
 
