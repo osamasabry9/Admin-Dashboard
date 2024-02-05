@@ -20,6 +20,14 @@ abstract class AppStyles {
       fontWeight: FontWeight.w700,
     );
   }
+    static TextStyle styleBold18(BuildContext context) {
+    return TextStyle(
+      color: const Color(0xFF4EB7F2),
+      fontSize: getResponsiveFontSize(context, fontSize: 18),
+      fontFamily: 'Montserrat',
+      fontWeight: FontWeight.w700,
+    );
+  }
 
   static TextStyle styleMedium16(BuildContext context) {
     return TextStyle(
