@@ -45,7 +45,7 @@ class ActiveDrawerItem extends StatelessWidget {
         fit: BoxFit.scaleDown,
         child: Text(
           drawerItemModel.title,
-          style: AppStyles.styleBold16(context),
+          style: AppStyles.styleBold18(context),
         ),
       ),
       trailing: Container(
